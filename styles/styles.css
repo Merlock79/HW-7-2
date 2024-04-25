@@ -1,7 +1,7 @@
-a[href*="youtube"] {
+a[href$=".com/"] {
   color: red;
 }
-a[href*="validator"] {
+a[href$=".org/"] {
   color: red;
 }
 ul + p {
